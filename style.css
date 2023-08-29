@@ -1,0 +1,243 @@
+*{
+    margin: 0;
+}
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+.color{
+    color: #E55473;
+}
+
+.flexible{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.background{
+    background-color: rgba(229, 84, 115, 0.10);
+    width: 100%;
+    height: 100vh;
+}
+
+button{
+    border-radius: 5px;
+    background: #E55473;
+    border: 0;
+    color: white;
+    font-size: 15px;
+    font-weight: 400;
+    padding: 15px 30px;
+}
+
+.headline{
+    color: #272727;
+    font-size: 60px;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+
+.header-text{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.header-img{
+    width: 500px;
+}
+
+.header-design{
+    max-width: 500px;
+}
+
+.featured-flowers{
+    height: 100vh;
+    width: 80%;
+    margin: 100px auto 0;
+}
+
+.featured-flowers img{
+    padding: 10px;
+}
+
+.featured-flowers-headline{
+    color: #E55473;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    padding-bottom: 20px;
+}
+
+.featured-flowers-text{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 15px;
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+
+.flowers-img-1{
+    height: 350px;
+    width: 250px;
+    border-radius: 300px 300px 0px 0px;
+    background-color: rgba(167, 33, 98, 0.15);
+}
+
+.flowers-img-2{
+    height: 350px;
+    width: 250px;
+    border-radius: 300px 300px 0px 0px;
+    background-color: rgba(5, 151, 160, 0.15);
+}
+
+.flowers-img-3{
+    height: 350px;
+    width: 250px;
+    border-radius: 300px 300px 0px 0px;
+    background-color: rgba(71, 125, 17, 0.15);
+}
+
+.flowers-text{
+    color: #272727;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    text-decoration-line: underline;
+    margin-top: 20px;
+}
+
+.featured{
+    width: 80%;
+    height: 30vh;
+    margin: 0 auto;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+}
+
+.featured-group{
+    padding: 50px;
+}
+
+.featured-group img{
+    padding: 10px 50px;
+}
+
+.featured-text{
+    color: rgba(39, 39, 39, 0.80);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.feedback{
+    width: 80%;
+    height: 50vh;
+    margin: 100px auto;
+}
+
+.feedback p{
+    text-align: left;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 5px;
+}
+
+#sign-up-height{
+    height: 60vh;
+}
+
+.sign-up-design{
+    max-width: 550px;
+}
+
+.sign-up-headline{
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+
+.sign-up-text{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.sign-up-button{
+    margin: 0 210px;
+}
+
+.sign-up-img{
+    width: 250px;
+}
+
+.instagram{
+    height: 50vh;
+    width: 80%;
+    margin: 50px auto;
+}
+
+.instagram img{
+    width: 200px;
+}
+
+.subscribe{
+    background-image: url('/flower-asset/Rectangle\ 9.png');
+    background-repeat: no-repeat;
+    height: 40vh;
+    width: 80%;
+    margin: 50px auto;
+}
+
+#design{
+    padding-top: 100px;
+}
+
+form{
+    text-align: center;
+}
+
+#form-design{
+    border-radius: 5px;
+    background: white;
+    border: 0;
+    color: black;
+    font-size: 15px;
+    font-weight: 400;
+    padding: 15px 30px;
+}
+
+footer{
+    background-color: #111010;
+    height: 50vh;
+    width: 100%;
+    text-align: center;
+}
+
+.footer-headline{
+    color: #FFF;
+    font-size: 30px;
+    font-weight: 800;
+    padding-top: 100px;
+    padding-bottom: 20px;
+}
+
+.footer-text{
+    color: rgba(255, 255, 255, 0.90);
+    font-size: 15px;
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+
+small{
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 12px;
+    font-weight: 400;
+    padding-bottom: 100px;
+}
